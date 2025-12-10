@@ -1,0 +1,45 @@
+# Model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+models/
+checkpoint*/
+
+# Data files
+data/
+*.jsonl
+*.csv
+emails_training.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.env
+
+# Logs
+*.log
+logs/
+wandb/
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Docker
+*.tar.gz
+.dockerignore
+
+# Temporary
+tmp/
+temp/
+cache/
+*.tmp
